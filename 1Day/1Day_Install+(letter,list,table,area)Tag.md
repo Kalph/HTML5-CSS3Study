@@ -83,7 +83,7 @@ lang : 페이지의  언어를 표시
 
 <b>&lt;blockquote&gt;</b> - 인용 문구를 나타내는 
 
-<b>&lt;blocakquote cite=""&gt;</b> - 인용된 사이트 주소를 나탸냄 (직접 표시는 안되나 검색 엔진에 노출)
+<b>&lt;blocakquote cite=""&gt;</b> - 인용된 사이트 주소를 나타냄 (직접 표시는 안되나 검색 엔진에 노출)
 
 <b>&lt;q&gt;</b> - ""으로 인용 문구를 나타냄
 
@@ -152,6 +152,8 @@ reversed="reversed"
     <br>
     <iframe width="1200px" height="800px" src="https://www.naver.com" frameborder="0"></iframe>
 ```
+
+<br>
 
 네이버나 구글과 같은 사이트는 페이지를 가져오는게 불가능한 듯. -> 메인 페이지들은 대부분이 거부됨
 
