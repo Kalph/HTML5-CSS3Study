@@ -65,47 +65,47 @@ lang : 페이지의  언어를 표시
 
 </br> 
 
-<b>&lt;hn&gt;<b> - 글 크기
+<b>&lt;hn&gt;</b> - 글 크기
 
-<b><><b> - <>를 의미
+<b><></b> - <>를 의미
 
-<b>&lt;br&gt;<b> - 줄 바꿈
+<b>&lt;br&gt;</b> - 줄 바꿈
 
-<b>&lt;hr&gt;<b> - 문단 나눔
+<b>&lt;hr&gt;</b> - 문단 나눔
 
-<b>&lt;b&gt;<b> - 글자를 굵게 만들기
+<b>&lt;b&gt;</b> - 글자를 굵게 만들기
 
-&lt;strong&gt; - 글자를 굵게 만들기 (스크린 리더를 사용하는 경우 음성에서도 강조가 됨)
+<b>&lt;strong&gt;</b> - 글자를 굵게 만들기 (스크린 리더를 사용하는 경우 음성에서도 강조가 됨)
 
-&lt;i&gt; - 글자 기울이기
+<b>&lt;i&gt;</b> - 글자 기울이기
 
-&lt;em&gt; - 글자 기울이기(음성에서 강조)
+<b>&lt;em&gt;</b> - 글자 기울이기(음성에서 강조)
 
-&lt;blockquote&gt; - 인용 문구를 나타내는 
+<b>&lt;blockquote&gt;</b> - 인용 문구를 나타내는 
 
-&lt;blocakquote cite=""&gt; - 인용된 사이트 주소를 나탸냄 (직접 표시는 안되나 검색 엔진에 노출)
+<b>&lt;blocakquote cite=""&gt;</b> - 인용된 사이트 주소를 나탸냄 (직접 표시는 안되나 검색 엔진에 노출)
 
-&lt;q&gt; - ""으로 인용 문구를 나타냄
+<b>&lt;q&gt;</b> - ""으로 인용 문구를 나타냄
 
-&lt;mark&gt; - 형광펜 마킹 효과
+<b>&lt;mark&gt;</b> - 형광펜 마킹 효과
 
-&lt;u&gt; - 밑줄을 그어줌
+<b>&lt;u&gt;</b> - 밑줄을 그어줌
 
-&lt;small&gt; - 글자를 작게 표시함
+<b>&lt;small&gt;</b> - 글자를 작게 표시함
 
-&lt;sup&gt; - 윗첨자
+<b>&lt;sup&gt;</b> - 윗첨자
 
-&lt;sub&gt; - 아래첨자
+<b>&lt;sub&gt;</b> - 아래첨자
 
-&lt;s&gt; - 취소선
+<b>&lt;s&gt;</b> - 취소선
 
-&lt;abbr title=""&gt; - 마우스 오버 시 튤팁 형태로 출력
+<b>&lt;abbr title=""&gt;</b> - 마우스 오버 시 튤팁 형태로 출력
 
-&lt;cite&gt; - 참고한 문서를 이텔릭채로 나타냄
+<b>&lt;cite&gt;</b> - 참고한 문서를 이텔릭채로 나타냄
 
-&lt;pre&gt; &lt;code&gt; - 컴퓨터 인식을 위한 소스코드를 담는 
+<b>&lt;pre&gt; &lt;code&gt;</b> - 컴퓨터 인식을 위한 소스코드를 담는 
 
-&lt;kdb&gt; -   입력 내용을 표시
+<b>&lt;kdb&gt;</b> -   입력 내용을 표시
 
 </br> 
 
@@ -113,9 +113,9 @@ lang : 페이지의  언어를 표시
 
 </br> 
 
-&lt;ul&gt;&lt;li&gt; - 순서 없는 목록 태그 (ul>li*n로 한 번에 n개 생성해서 작성 가능)
+<b>&lt;ul&gt;&lt;li&gt;</b> - 순서 없는 목록 태그 (ul>li*n로 한 번에 n개 생성해서 작성 가능)
 
-&lt;ol&gt;&lt;li&gt; - 순서 있는 목록 태그 (ol>li*n으로 한 번에 n개 생성해서 작성 가능)
+<b>&lt;ol&gt;&lt;li&gt;</b> - 순서 있는 목록 태그 (ol>li*n으로 한 번에 n개 생성해서 작성 가능)
 
 type = "" - a,b,i,I
 
@@ -125,11 +125,11 @@ reversed="reversed"
 
 ## 표 태그
 
-&lt;table&gt;&lt;caption&gt;&lt;tr&gt;&lt;th&gt; - 테이블, tr은 한 개의 행을 만듬, th는 한 개의 열을 만듬(가운데 정렬 및 굵게 표시됨), caption은 제목을 추가함
+<b>&lt;table&gt;&lt;caption&gt;&lt;tr&gt;&lt;th&gt;</b> - 테이블, tr은 한 개의 행을 만듬, th는 한 개의 열을 만듬(가운데 정렬 및 굵게 표시됨), caption은 제목을 추가함
 
-&lt;figure&gt;&lt;figcaption&gt; - 테이블의 설명 혹은 img 설명에 사용
+<b>&lt;figure&gt;&lt;figcaption&gt;</b> - 테이블의 설명 혹은 img 설명에 사용
 
-&lt;table&gt;&lt;thead&gt;&lt;tbody&gt;lt;tfoot&gt; - 테이블의 구조를 설정
+<b>&lt;table&gt;&lt;thead&gt;&lt;tbody&gt;lt;tfoot&gt;</b> - 테이블의 구조를 설정
 
 </br> 
 
@@ -137,11 +137,11 @@ reversed="reversed"
 
 </br> 
 
-&lt;div&gt; - 영역 태그(줄 바꿈 형태로 영억이 설정)
+<b>&lt;div&gt;</b> - 영역 태그(줄 바꿈 형태로 영억이 설정)
 
-&lt;span&gt; - 영역 태그(옆으로 영역이 설정됨)
+<b>&lt;span&gt;</b> - 영역 태그(옆으로 영역이 설정됨)
 
-&lt;iframe&gt; - 웹 문서 안에 다른 웹 페이지나 동영상을 추가하는 태그
+<b>&lt;iframe&gt;</b> - 웹 문서 안에 다른 웹 페이지나 동영상을 추가하는 태그
 
 </br> 
 
