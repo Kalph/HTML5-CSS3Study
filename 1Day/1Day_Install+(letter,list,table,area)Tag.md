@@ -53,7 +53,7 @@ lang : 페이지의  언어를 표시
 </head>
 <body>
 
-<!-- 주석을 적으려면 <!-- -->를 사용하면 된다.-->
+<!-- 주석을 적을때 사용한다.-->
     
 </body>
 </html>
@@ -125,11 +125,11 @@ reversed="reversed"
 
 ## 표 태그
 
-<table><caption><tr><th> - 테이블, tr은 한 개의 행을 만듬, th는 한 개의 열을 만듬(가운데 정렬 및 굵게 표시됨), caption은 제목을 추가함
+&lt;table&gt;&lt;caption&gt;&lt;tr&gt;&lt;th&gt; - 테이블, tr은 한 개의 행을 만듬, th는 한 개의 열을 만듬(가운데 정렬 및 굵게 표시됨), caption은 제목을 추가함
 
-<figure><figcaption> - 테이블의 설명 혹은 img 설명에 사ㅛ용
+&lt;figure&gt;&lt;figcaption&gt; - 테이블의 설명 혹은 img 설명에 사ㅛ용
 
-<table><thead><tbody><tfoot> - 테이블의 구조를 설정
+&lt;table&gt;&lt;thead&gt;&lt;tbody&gt;lt;tfoot&gt; - 테이블의 구조를 설정
 
 </br> 
 
