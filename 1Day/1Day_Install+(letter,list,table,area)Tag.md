@@ -65,15 +65,15 @@ lang : 페이지의  언어를 표시
 
 </br> 
 
-&lt;hn - 글 크기
+<b>&lt;hn&gt;<b> - 글 크기
 
-<> - <>를 의미
+<b><><b> - <>를 의미
 
-&lt;br&gt; - 줄 바꿈
+<b>&lt;br&gt;<b> - 줄 바꿈
 
-&lt;hr&gt; - 문단 나눔
+<b>&lt;hr&gt;<b> - 문단 나눔
 
-&lt;b&gt; - 글자를 굵게 만들기
+<b>&lt;b&gt;<b> - 글자를 굵게 만들기
 
 &lt;strong&gt; - 글자를 굵게 만들기 (스크린 리더를 사용하는 경우 음성에서도 강조가 됨)
 
@@ -127,7 +127,7 @@ reversed="reversed"
 
 &lt;table&gt;&lt;caption&gt;&lt;tr&gt;&lt;th&gt; - 테이블, tr은 한 개의 행을 만듬, th는 한 개의 열을 만듬(가운데 정렬 및 굵게 표시됨), caption은 제목을 추가함
 
-&lt;figure&gt;&lt;figcaption&gt; - 테이블의 설명 혹은 img 설명에 사ㅛ용
+&lt;figure&gt;&lt;figcaption&gt; - 테이블의 설명 혹은 img 설명에 사용
 
 &lt;table&gt;&lt;thead&gt;&lt;tbody&gt;lt;tfoot&gt; - 테이블의 구조를 설정
 
@@ -137,11 +137,11 @@ reversed="reversed"
 
 </br> 
 
-div - 영역 태그(줄 바꿈 형태로 영억이 설정)
+&lt;div&gt; - 영역 태그(줄 바꿈 형태로 영억이 설정)
 
-span - 영역 태그(옆으로 영역이 설정됨)
+&lt;span&gt; - 영역 태그(옆으로 영역이 설정됨)
 
-iframe - 웹 문서 안에 다른 웹 페이지나 동영상을 추가하는 태그
+&lt;iframe&gt; - 웹 문서 안에 다른 웹 페이지나 동영상을 추가하는 태그
 
 </br> 
 
