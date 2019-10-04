@@ -40,11 +40,11 @@ live html previewer - 실시간 코드 작성 결과물 확인 가능 - f1단축
 
 html만 입력 후 5에 맞게 엔터를 치면 자동 완성이 되는 기능도 있음.
 
-<html> : html 문서의 내용을 정의
+&lt;html&gt; : html 문서의 내용을 정의
 
 lang : 페이지의  언어를 표시
 
-```html5
+```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -113,9 +113,9 @@ lang : 페이지의  언어를 표시
 
 </br> 
 
-<ul><li> - 순서 없는 목록 태그 (ul>li*n로 한 번에 n개 생성해서 작성 가능)
+&lt;ul&gt;&lt;li&gt; - 순서 없는 목록 태그 (ul>li*n로 한 번에 n개 생성해서 작성 가능)
 
-<ol><li> - 순서 있는 목록 태그 (ol>li*n으로 한 번에 n개 생성해서 작성 가능)
+&lt;ol&gt;&lt;li&gt; - 순서 있는 목록 태그 (ol>li*n으로 한 번에 n개 생성해서 작성 가능)
 
 type = "" - a,b,i,I
 
@@ -145,7 +145,7 @@ iframe - 웹 문서 안에 다른 웹 페이지나 동영상을 추가하는 태
 
 </br> 
 
-```html5
+```html
     <h3>iframe</h3>
     <p>웹 문서 안에 다른 웹 페이지를 추가하는 태그(inline 형식)</p>
     <iframe width="400" height="300" src="https://www.youtube.com/embed/yx7cCPUIe0c"></iframe>
