@@ -5,7 +5,7 @@ HTML5/CSS3
 
 <br/>
 
-> ## 목차 <br>
+> ## HTML <br>
  1일 - [설치+(글자,목록,표,영역)태그](https://github.com/Kalph/HTML5Study/tree/master/1Day) <br/>
  2일 - [(이미지,미디어,하이퍼링크,폼)태그](https://github.com/Kalph/HTML5Study/tree/master/2Day) <br/>
 > ## CSS <br>
