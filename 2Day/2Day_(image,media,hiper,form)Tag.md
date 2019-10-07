@@ -197,6 +197,6 @@ value = type의 들어갈 문자 -->
 <form>
     <textarea cols="20" rows="5" style="resize:none"></textarea>
 </form>
-```html
+```
 
 </br>
