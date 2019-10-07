@@ -9,7 +9,7 @@
 
 </br>
 
-&lt;img&gt;  - 이미지 태그
+<b>&lt;img&gt;</b>  - 이미지 태그
 
 </br>
 
@@ -37,7 +37,7 @@
 
 </br>
 
-&lt;audio&gt; - 오디오 태그
+<b>&lt;audio&gt;</b> - 오디오 태그
 
 </br>
 
@@ -48,7 +48,7 @@ autoplay="autoplay" loop="loop"></audio>
 
 </br>
 
-&lt;video&gt; - 비디오 태그
+<b>&lt;video&gt;</b> - 비디오 태그
 
 </br>
 
@@ -89,7 +89,7 @@ autoplay="autoplay" poster="재생 전 출력 이미지(경로)"></video>
 
 </br>
 
-&lt;form&gt; - 폼 태그
+<b>&lt;form&gt;</b> - 폼 태그
 
 </br>
 
