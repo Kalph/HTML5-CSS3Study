@@ -116,7 +116,7 @@ font-family : "글꼴";
 
 외부 글꼴 적용도 가능 
 
-ex)<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+ex)&lt;link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet"&gt;
 
 </br>
 
