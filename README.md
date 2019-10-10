@@ -10,7 +10,7 @@ HTML5/CSS3
  2일 - [(이미지,미디어,하이퍼링크,폼)태그](https://github.com/Kalph/HTML5Study/tree/master/2Day) <br/>
 > ## CSS <br>
  3일 - [CSS(선택자,우선순위,글꼴)](https://github.com/Kalph/HTML5-CSS3Study/tree/master/3Day) <br/>
- 4일 - [(텍스트,문단,목록,배경,색상)스타일]() <br/> 
+ 4일 - [(텍스트,문단,목록,배경,색상)스타일]) <br/> 
  5일 - []() <br/>
  
 * 그외 <br/>
