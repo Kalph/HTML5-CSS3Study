@@ -35,7 +35,7 @@ CSS선택자
 <b>[*=]</b> - 특정 값으로 끝나는 태그
 
 <b>input[type='checkbox']:checked - input태그의 체크박스가 체크될 경우를 의미</b>
-
+ 
 </br>
 
 ### <아이디 선택자> - #이름 {}
