@@ -69,7 +69,7 @@
 
 <b>square</b> - 채운 사각형
 
-<b>none</b> - 없애이
+<b>none</b> - 없애기
 
 <b>decimal</b> - 1부터 시작
 
