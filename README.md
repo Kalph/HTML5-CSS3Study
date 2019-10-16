@@ -20,7 +20,7 @@ HTML5/CSS3
  
 * 그외 <br/>
  [01_Html_ChromeExecute](https://github.com/Kalph/HTML5-CSS3Study/blob/master/%EA%B7%B8%EC%99%B8/01_Html_ChromeExecute.md) <br/>
- [02_MyHomePage(반응형 웹)]() <br/>
+ [02_MyHomePage(반응형 웹)](https://github.com/Kalph/HTML5-CSS3Study/tree/master/%EA%B7%B8%EC%99%B8/MyHomePage) <br/>
  
 * 미니 프로젝트 <br/>
 []()<br/> 
