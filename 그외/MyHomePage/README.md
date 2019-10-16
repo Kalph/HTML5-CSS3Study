@@ -17,7 +17,7 @@ MyHomePage
 
 <br/>
 
-  > # 메인화면
+  >> # 메인화면
 ![main1](./exe_img/home.png)
 
 <br/>
