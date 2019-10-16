@@ -38,5 +38,5 @@ MyHomePage
 
 <br/>
 
-  > # 사진 
+  > # 사진 게시판
 ![main4](./exe_img/pic.png)
