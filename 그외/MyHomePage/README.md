@@ -17,20 +17,20 @@ MyHomePage
 
 <br/>
 
-> # 메인화면
-![main](./iexe_img/home.png)
+  > # 메인화면
+![main1](./iexe_img/home.png)
 
 <br/>
 
-> # 화면을 줄일시 반응형 사이트
-![main](./iexe_img/respon.png)
+  > # 화면을 줄일시 반응형 사이트
+![main2](./iexe_img/respon.png)
 
 <br/>
 
-> # 일반 게시판
-![main](./iexe_img/nor.png)
+  > # 일반 게시판
+![main3](./iexe_img/nor.png)
 
 <br/>
 
-> # 사진 
-![main](./iexe_img/pic.png)
+  > # 사진 
+![main4](./iexe_img/pic.png)
