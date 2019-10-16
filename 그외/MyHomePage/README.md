@@ -18,19 +18,19 @@ MyHomePage
 <br/>
 
   > # 메인화면
-![main1](./iexe_img/home.png)
+![main1](./exe_img/home.png)
 
 <br/>
 
   > # 화면을 줄일시 반응형 사이트
-![main2](./iexe_img/respon.png)
+![main2](./exe_img/respon.png)
 
 <br/>
 
   > # 일반 게시판
-![main3](./iexe_img/nor.png)
+![main3](./exe_img/nor.png)
 
 <br/>
 
   > # 사진 
-![main4](./iexe_img/pic.png)
+![main4](./exe_img/pic.png)
