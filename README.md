@@ -17,7 +17,7 @@ WebFront
  8일 - [반응형 웹](https://github.com/Kalph/WebFrontStudy/tree/master/8Day)<br/> 
  
 > ## JavaScript <br/>
- 9일 - []()<br/>
+ 9일 - [개요+기본 문법](https://github.com/Kalph/WebFrontStudy/tree/master/9Day)<br/>
  10일 - []()<br/>
  11일 - []()<br/>
  
