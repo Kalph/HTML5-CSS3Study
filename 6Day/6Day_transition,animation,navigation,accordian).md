@@ -207,6 +207,6 @@ transition-timing-function -
 
 외부 스타일에서의 시트 링크를 걸수 있다.
 
-<link href="resources/css/main.css" rel="stylesheet" type="text/css">​
+&lt;link href="resources/css/main.css" rel="stylesheet" type="text/css"&gt;
 
 ​
