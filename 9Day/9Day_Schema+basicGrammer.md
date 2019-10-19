@@ -60,19 +60,19 @@
 
 <br>
 
-window.confirm() - 예/아니오 값을 입력받을 수 있다.
+<b>window.confirm()</b> - 예/아니오 값을 입력받을 수 있다.
 
-document.getElementById(""); - 해당 ""안의 아이디 값을 받아온다.
+<b>document.getElementById("");</b> - 해당 ""안의 아이디 값을 받아온다.
 
 -> .value를 붙이면 해당 id의 값을, .innerHTML을 붙이면 해당 id 부분의 적혀진 글을 읽어온다.
 
 <br>
 
-document.getElementById("").innnerHTML += "안녕"; - 해당 아이디 태그에 안녕을 작성한다.
+<b>document.getElementById("").innnerHTML += "안녕";</b> - 해당 아이디 태그에 안녕을 작성한다.
 
-window.prompt("hi") - 상단 창으로 hi를 출력시킨다. 
+<b>window.prompt("hi")</b> - 상단 창으로 hi를 출력시킨다. 
 
-focus() - 텍스트 박스를 사용할때 해당 텍스트 박스에 초첨(마우스 커서를 띄운다)을 맞춘다.
+<b>focus()</b> - 텍스트 박스를 사용할때 해당 텍스트 박스에 초첨(마우스 커서를 띄운다)을 맞춘다.
 
 <br>
 
