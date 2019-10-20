@@ -18,7 +18,7 @@ WebFront
  
 > ## JavaScript <br/>
  9일 - [개요+기본 문법](https://github.com/Kalph/WebFrontStudy/tree/master/9Day)<br/>
- 10일 - [](https://github.com/Kalph/WebFrontStudy/tree/master/10Day)<br/>
+ 10일 - [기본 문법](https://github.com/Kalph/WebFrontStudy/tree/master/10Day)<br/>
  11일 - []()<br/>
  
 * 그외 <br/>
