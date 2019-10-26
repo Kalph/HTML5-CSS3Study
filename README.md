@@ -1,7 +1,7 @@
 WebFront
 ==============
 
-### HTML5/CSS3, JavaScript 공부에 관한 내용들을 정리하였습니다.
+### HTML/CSS, JavaScript, jQuery 공부에 관한 내용들을 정리하였습니다.
 
 <br/>
 
