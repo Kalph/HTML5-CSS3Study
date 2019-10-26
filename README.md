@@ -34,7 +34,6 @@ WebFront
  14일 - [개요+설치+선택자](https://github.com/Kalph/WebFrontStudy/tree/master/14Day)<br/> 
  15일 - []()<br/> 
  16일 - []()<br/> 
- 17일 - []()<br/> 
  
  
 <br/> 
