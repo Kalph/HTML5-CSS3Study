@@ -24,17 +24,18 @@ HTML/CSS/JavaScript/JQuery/BootStrap/free template
 <br/>
 
   > # 메인화면2
-![main2](./sam_img/K-005.png)
+![main3](./sam_img/K-006.png)
+
 
 <br/>
 
   > # 일반 게시판
-![main3](./sam_img/K-006.png)
+![main4](./sam_img/K-007.png)
 
 <br/>
 
   > # 사진 게시판
-![main4](./sam_img/K-007.png)
+![main2](./sam_img/K-005.png)
 
 <br/>
 
