@@ -30,7 +30,7 @@ HTML/CSS/JavaScript/JQuery/BootStrap/free template
 <br/>
 
   > # 일반 게시판
-![main4](./sam_img/K-007.png)
+![main4](./sam_img/K-008.png)
 
 <br/>
 
