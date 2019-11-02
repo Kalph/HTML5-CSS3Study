@@ -9,13 +9,13 @@
 
 <br>
 
-fadeIn - 점점 진하게
+<b>fadeIn</b> - 점점 진하게
 
-fadeOut - 점점 희미하게
+<b>fadeOut</b> - 점점 희미하게
 
-fadeTo - 설정한 값까지 희미하게
+<b>fadeTo</b> - 설정한 값까지 희미하게
 
-fadeToggle - 진하게/희미하게 토글
+<b>fadeToggle</b> - 진하게/희미하게 토글
 
 <br>
 <hr>
