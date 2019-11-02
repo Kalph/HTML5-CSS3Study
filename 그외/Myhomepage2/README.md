@@ -10,8 +10,13 @@ MyHomePage2
 * 일반 게시판 - 일반 게시판(댓글 달기 기능)
 * 사진 게시판
 
-* 사용
-HTML/CSS/JavaScript/JQuery/BootStrap/free template
+<br>
+
+## 사용
+
+<b>HTML/CSS/JavaScript/JQuery/BootStrap/free template</b>
+
+<br>
 
 # 실행화면
 <br/>
