@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/mainp.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        html{
+            background: rgba(223, 218, 218, 0.829);
+        }
+        
+        header,nav,section,footer,article,aside{
+            box-sizing: border-box;
+            /* border: 1px solid rgb(161, 160, 160); */
+            box-shadow: 2px 2px 2px 2px rgb(235, 235, 235);
+        }
+        
+        body{
+            background: white;
+            display: table; margin-left: auto; margin-right: auto;
+            
+            width: 1000px;
+            height: 1000px;
+        }
+        
+        header{
+            width: 100%;
+            height: 15%;
+        }
+        
+        nav{
+            width: 100%;
+            height: 5%;
+        }
+        
+        #content{
+            width: 100%;
+            height: 70%;
+        }
+        
+        footer{
+            width: 100%;
+            height: 10%;
+        }
+
+        #Crap1{
+            width: 70%;
+            height: 100%;
+        }
+
+        #Crap2{
+            width: 30%;
+            height: 100%;
+        }
+
+        [id^="content-"],[id^="Crap"]{
+            float: left;
+            box-sizing: border-box;
+        }
+
+        #content-1{
+            position: relative;
+            width: 100%;
+            height: 20%;
+        }
+
+
+        #content-2{
+            width: 100%;
+            height: 5%;
+        }
+
+        #content-3{
+            position: relative;
+            width: 100%;
+            height: 75%;
+        }
+
+        #content-4{
+            width: 100%;
+            height: 30%;
+        }
+
+        #content-5{
+            position: relative;
+            width: 100%;
+            height: 20%;
+        }
+
+        #content-6{
+            position: relative;
+            width: 100%;
+            height: 50%;
+            text-align: center;
+        }
+
+        /* header,nav,[id^="content-"]{
+            margin: 5px;
+        } */
+
+        #header-1{
+            position: relative;
+            width: 30%;
+            height: 100%;
+        }
+
+        [id^="header-"]{
+            float: left;
+        }
+
+        #logo{
+            border-radius: 5px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 100%;
+            height: 100%;
+        }
+
+        #header-2{
+            position: relative;
+            width: 70%;
+            height: 100%;
+        }
+
+        #search_form{
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 70%;
+            height: 30%;
+        }
+
+        #search_text{
+            width: 80%;
+            height: 100%;
+            float: left;
+        }
+
+        #search_input, #search_btn{
+            border-radius: 5px;
+            width: 100%;
+            height: 100%;
+        }
+
+        #search_button{
+            width: 20%;
+            height: 100%;
+            float: left;
+        }
+
+        #navi{
+            padding: 0;
+            margin: 0;
+            height: 75%;
+        }
+    
+        #navi>li{
+            list-style-type: none;
+            float: left;
+            width: 20%;
+            height: 100%;
+            text-align: center;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        #navi li a{
+            display: block;
+            height: 100%;
+            color: black;
+            box-shadow: 5px 5px 5px rgb(201, 197, 206);
+            background: white;
+            border-radius: 10px;
+            margin: 5px;
+            text-decoration: none;
+            font-family: "나눔고딕";
+            font-size: 18px;
+            font-weight: 900;
+            box-sizing: border-box;
+        }
+
+        #navi li{
+            font-family: "나눔고딕";
+            font-size: 18px;
+            font-weight: 900;
+        }
+
+        #navi li a:hover {
+            color:rgb(120, 241, 120);
+        }
+
+        #navi li>ul{
+            list-style-type: none;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            padding: 0;
+            transition:all 0.6s;
+            opacity: 0; 
+            visibility: hidden; 
+
+        }
+
+        #navi li:hover ul{
+            opacity: 1;
+            visibility: visible;
+            z-index: 1;
+        }
+
+        [id^="ad"]{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
+
+        #login_form{
+            width: 100%;
+            height: 70%;
+            /* border: 1px solid #000; */
+        }
+
+        #id_pwd{
+            width: 70%;
+            height: 100%;
+            float: left;
+            padding: 30px 3px;
+            box-sizing: border-box;
+        }
+
+        #login_btn{
+            width: 30%;
+            height: 100%;
+            float: left;
+            box-sizing: border-box;
+            padding: 40px 5px;
+        }
+
+        #login_id,#login_pwd{
+            width: 100%;
+            height: 50%;
+            box-sizing: border-box;
+        }
+
+        #input_id,#input_pwd{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        #log_btn{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+
+        #also{
+            width: 100%;
+            height: 30%;
+            text-align: center;
+        }
+        
+        #also>a{
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+        #footer1{
+            width: 100%;
+            height: 80%;
+        }
+
+        #footer2{
+            width: 100%;
+            height: 20%;
+        }
+
+        #footer1>p{
+            font-size: 12px;
+            font-family: "나눔고딕";
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        #footer2>p{
+            margin: 0;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        #content-3>[id^="pic"]{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10%;
+            height: 10%;
+        }
+        
+    </style>
+    <script>
+        $(document).ready(function(){
+            $("#pic6").hover(function(){
+                ani();
+            });
+            int = 10;
+            function ani(){
+                $("#pic1").animate({"left":(100+int) + "%"},1000).animate({"top":(100+int) + "%"},1000)
+                .animate({"left":"0%"},1000).animate({"top":"0%"},1000);
+                $("#pic2").animate({"left":(100+int) + "%"},900).animate({"top":(100+int) + "%"},900)
+                .animate({"left":"0%"},900).animate({"top":"0%"},900);
+                $("#pic3").animate({"left":(100+int) + "%"},800).animate({"top":(100+int) + "%"},800)
+                .animate({"left":"0%"},800).animate({"top":"0%"},800);
+                $("#pic4").animate({"left":(100+int) + "%"},7000).animate({"top":(100+int) + "%"},7000)
+                .animate({"left":"0%"},7000).animate({"top":"0%"},7000);
+                $("#pic5").animate({"left":(100+int) + "%"},600).animate({"top":(100+int) + "%"},600)
+                .animate({"left":"0%"},600).animate({"top":"0%"},600);
+                $("#pic6").animate({"left":(100+int) + "%"},500).animate({"top":(100+int) + "%"},500)
+                .animate({"left":"0%"},500).animate({"top":"0%"},500, ani);
+                int += 10;
+            }
+            $("#content-3>img").click(function(){
+                $(this).animate().stop();
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <section id="header-1"><img id="logo" src="image/logo.png"></section>
+        <section id="header-2">
+            <form id="search_form">
+                <div id="search_text">
+                    <input type="text" id="search_input" class="form-control" placeholder="검색할 내용 입력">
+                </div>
+                <div id="search_button">
+                    <button type="submit" id="search_btn">검색</button>
+                </div>
+            </form>
+        </section>
+    </header>
+    <nav>
+        <ul id="navi">
+            <li><a href="일반게시판.html" target="_blank">일반 게시판</a></li>
+            <li><a href="사진게시판.html" target="_blank">사진 게시판</a></li>
+            <li><a href="MainPage2.html" target="_blank">다른 게시판</a></li>
+            <li><a href="#">사이트 이동</a>
+                <ul>
+                    <li><a href="https://www.naver.com" target="_blank">Naver</a></li>
+                    <li><a href="https://www.daum.net" target="_blank">Daum</a></li>
+                    <li><a href="https://www.google.com" target="_blank">Google</a></li>
+                </ul>
+            </li>
+            <li><a href="#">버려진 게시판</a>
+                <ul>
+                    <li><a href="#">111111111</a></li>
+                    <li><a href="#">2122232323</a></li>
+                    <li><a href="#">34343512</a></li>
+                    <li><a href="#">42512512516</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <section id="content">
+        <section id="Crap1">
+            <section id="content-1">
+                <img id="ad1" src="image/ad1.jpg">
+            </section>
+            <section id="content-2">
+
+            </section>
+            <section id="content-3">
+                <img src="image/피카츄.gif" id="pic1" class="rounded-lg">
+                <img src="image/피카츄.gif" id="pic2" class="rounded-lg">
+                <img src="image/피카츄.gif" id="pic3" class="rounded-lg">
+                <img src="image/피카츄.gif" id="pic4" class="rounded-lg">
+                <img src="image/피카츄.gif" id="pic5" class="rounded-lg">
+                <img src="image/피카츄.gif" id="pic6" class="rounded-lg">  
+            </section>
+        </section>
+
+        <section id="Crap2">
+            <section id="content-4">
+                <form method="GET" id="login_form" action="">
+                    <div id="id_pwd">
+                        <div id="login_id">
+                            <input type="text" id="input_id" name="input_id" placeholder="ID를 입력하세요.">
+                        </div>
+                        <div id="login_pwd">
+                            <input type="password" id="input_pwd" name="input_pwd" placeholder="PW를 입력하세요">
+                        </div>
+                    </div>
+                    <div id="login_btn">
+                        <button type="button" id="log_btn" class="btn btn-success">로그인</button>
+                    </div>
+                </form>
+
+                <div id="also">
+                    <a href="#">회원가입</a>
+                    <a href="#">ID/PW 찾기</a>
+                </div>
+            </section>
+            <section id="content-5">
+                <img id="ad3" src="image/ad3.jpg">
+            </section>
+            <section id="content-6">
+                <img id="ad2" src="image/ad2.jpg">
+            </section>
+        </section>
+    </section>
+
+    <footer>
+        <section id="footer1">
+            <p>반응형 웹 사이트가 맞는<br>
+                듯한 웹 사이트
+            </p>
+        </section>
+        <section id="footer2">
+            <p>Copyright 2019~ Information Educational Institute ALL Right Reserved</p>
+        </section>
+    </footer>
+
+</body>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+
+</html>
