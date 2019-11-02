@@ -27,7 +27,7 @@
 
 <b>dragleave</b> - 놓기 영역을 떠날 때
 
-drop - 놓기할 때
+<b>drop</b> - 놓기할 때
 
 <br>
 
