@@ -47,9 +47,7 @@ WebFront
  [01_Html_ChromeExecute](https://github.com/Kalph/WebFrontStudy/blob/master/%EA%B7%B8%EC%99%B8/01_Html_ChromeExecute.md) <br/>
  [02_MyHomePage(반응형 웹)](https://github.com/Kalph/WebFrontStudy/tree/master/%EA%B7%B8%EC%99%B8/MyHomePage) <br/>
  [03_MyHomePage2](https://github.com/Kalph/WebFrontStudy/tree/master/%EA%B7%B8%EC%99%B8/Myhomepage2)<br>
- 
-* 미니 프로젝트 <br/>
-[]()<br/> 
+
 
  
 
