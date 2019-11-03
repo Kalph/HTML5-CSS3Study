@@ -39,7 +39,7 @@ WebFront
  <br/> 
  
 > ## Web API <br/>
- 18일 - [](https://github.com/Kalph/WebFrontStudy/tree/master/18Day)<br/>
+ 18일 - [Drag and Drop+GetLocation](https://github.com/Kalph/WebFrontStudy/tree/master/18Day)<br/>
  19일 - []()<br/>
  
 <br/> 
