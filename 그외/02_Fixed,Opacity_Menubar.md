@@ -32,7 +32,7 @@
         height: 10%;
         z-index: 10;
         opacity: 0.7;
-    }
+    } 
 
     header>section {
         position: relative;
